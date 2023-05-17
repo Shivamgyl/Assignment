@@ -1,0 +1,103 @@
+.parent {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: black black red black;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: black black red black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: red black red black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: black red black black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: black black black red;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: black red black red;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: red red black black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box7 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: black black red red;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box8 {
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+    border-color: black black red red;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 -4px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.dot {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.tick{
+    font-size: 50px;
+    color: black;
+}
